@@ -1,9 +1,22 @@
 # av-alused
 ## alapealkiri
-## loetelu
+### loetelu
 - punkt 1
 - punkt 2
   - punkt 2.1
 
-## kood
+#### kood
 `hello world()`
+
+*.md > markdown fail
+
+***
+---
+___
+
+```
+<?php 
+header("Location: https://www.example.com/", true,)
+
+/>
+```
