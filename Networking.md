@@ -18,10 +18,16 @@ sudo apt-get update && sudo apt-get upgrade
 	&& - kui esimene käsk õnnestub, käivita teine
 Teeb VMis vajalikud uuendused
 
-sudo apt-get install netcat-openbsd tcpdump traceroute mtr
+apt-get update uuendab paketinimekirjad
+upgrade # tarkvarauuendus, pole mõtet teha (võib vahele jätta)
+
+võib asendada:
+
+sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof
+
 Installib "network utility programmid" - mis see tähendab, mis seal sisaldub?
 
-Küsimus: "Which MySQL product do you want to configure?"
+Küsimus: "Which MySQL product do you want to configure?" < get-apt upgrade'i hulka kuulub, pole vaja teha
 
 ip COMMAND CHEAT SHEET (koos käskude kirjeldustega): https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf
 
